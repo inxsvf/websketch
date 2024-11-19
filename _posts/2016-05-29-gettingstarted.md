@@ -3,6 +3,7 @@ layout: blog
 category: blog
 published: true
 title: Primeiros Passos
+tags: ''
 ---
 
 O elemento `<canvas>` define uma região onde se pode “desenhar”. Esta zona pode ser acedida através, por exemplo, de _JavaScript_ que a partir de várias funções é possível a criação de gráficos, animações e outras composições.
@@ -62,7 +63,7 @@ De seguida, para desenhar rectângulos existem três opções, tendo-se optado p
 
 Tendo em conta que, normalmente, a origem (0,0) do sistema de coordenadas do canvas é no canto superior esquerdo desse elemento, e cada unidade corresponde a 1 pixel, desenhou-se um quadrado com largura e comprimento, _width_ = _height_ = 60_pixels_, com origem no ponto (x, y) = (10, 10).
 
-<img src="https://mdn.mozillademos.org/files/224/Canvas_default_grid.png" alt="grid system" style="width: 220px;">
+![canvas_default_grid.png]({{site.baseurl}}/media/canvas_default_grid.png)
 
 #### Exemplo 2: Quadrado em movimento
 
